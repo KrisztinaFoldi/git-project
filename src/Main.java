@@ -2,7 +2,12 @@ public class Main {
   public static void main(String[] args) {
     greet();
     count();
+    cheer();
 
+  }
+
+  private static void cheer() {
+    System.out.println("git-project");
   }
 
   public static void greet(){
