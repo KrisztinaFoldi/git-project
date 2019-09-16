@@ -1,7 +1,7 @@
 public class Main {
   public static void main(String[] args) {
     greet("balint");
-    count();
+    count(23);
     cheer();
     future();
 
@@ -17,8 +17,8 @@ public class Main {
 
   }
 
-  public static void count() {
-    System.out.println("23");
+  public static void count(Integer number) {
+    System.out.println(number);
   }
 
   public static void future(){
