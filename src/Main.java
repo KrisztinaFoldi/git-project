@@ -2,8 +2,10 @@ public class Main {
   public static void main(String[] args) {
     greet("balint");
     count(23);
+    future("szarHugyFing");
+
     cheer();
-    future();
+    
 
 
   }
@@ -21,8 +23,8 @@ public class Main {
     System.out.println(number);
   }
 
-  public static void future(){
-    System.out.println("szarhugyfing");
+  public static void future(String lofaszBabbal){
+    System.out.println(lofaszBabbal);
 
   }
 }
