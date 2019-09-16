@@ -3,6 +3,8 @@ public class Main {
     greet();
     count();
     cheer();
+    future();
+
 
   }
 
@@ -19,4 +21,8 @@ public class Main {
     System.out.println("23");
   }
 
+  public static void future(){
+    System.out.println("szarhugyfing");
+
+  }
 }
